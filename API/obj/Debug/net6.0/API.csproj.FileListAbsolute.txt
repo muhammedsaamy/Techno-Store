@@ -60,3 +60,7 @@ D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\runtimes\win\lib\n
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Core.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Infrastructure.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Infrastructure.pdb
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Core.pdb
