@@ -1,6 +1,7 @@
 using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,27 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StoreContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
+
+using(var scope = app.Services.CreateScope())
+{
+    var service = scope.ServiceProvider;
+    var liggerFactory = service.GetRequiredService<ILoggerFactory>();
+    try
+    {
+        var context=service.GetRequiredService<StoreContext>();
+        await context.Database.MigrateAsync();
+    }
+    catch (Exception ex)
+    {
+        //var serviceCollection = new ServiceCollection();
+        //serviceCollection.AddLogging();
+        //var serviceProvider = serviceCollection.BuildServiceProvider();
+        //_logger = serviceProvider.GetService<ILogger<Program>>();
+        var logger = builder.Logging.Services.BuildServiceProvider().GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occured during migration");
+
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
