@@ -77,7 +77,7 @@ namespace Infrastructure.Data.Migrations
                     b.ToTable("ProductBrands");
                 });
 
-            modelBuilder.Entity("Core.Entities.ProductType", b =>
+            modelBuilder.Entity("Core.Entities.ProductsType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -91,7 +91,7 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductTypes");
+                    b.ToTable("ProductsTypes");
                 });
 
             modelBuilder.Entity("Core.Entities.Product", b =>
@@ -102,7 +102,7 @@ namespace Infrastructure.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Core.Entities.ProductType", "ProductType")
+                    b.HasOne("Core.Entities.ProductsType", "ProductType")
                         .WithMany()
                         .HasForeignKey("ProsuctTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
