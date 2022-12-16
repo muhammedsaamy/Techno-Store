@@ -9,7 +9,7 @@ namespace Core.Entities
 {
     public class BaseEntity
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
 
     }
