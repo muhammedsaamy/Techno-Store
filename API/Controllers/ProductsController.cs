@@ -1,4 +1,5 @@
 ﻿
+using API.DTOs;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
@@ -25,18 +26,38 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturn>>> GetProducts()
         {
             var spec = new ProductWithTypesAndBrandsSpecification();
-            return Ok (await _productRepo.ListAsync(spec));
+            var products= await _productRepo.ListAsync(spec);
+            return products.Select(product => new ProductToReturn
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                PictureUrl = product.PictureUrl,
+                Price = product.Price,
+                ProductBrand = product.ProductBrand.Name,
+                ProductType = product.ProductType.Name
+            }).ToList();
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<ProductToReturn>> GetProduct(int id)
         {
             var spec = new ProductWithTypesAndBrandsSpecification(id);
 
-            return await _productRepo.GeyEntityWithSpec(spec);
+            var products= await _productRepo.GeyEntityWithSpec(spec);
+            return new ProductToReturn
+            {
+                Id = products.Id,
+                Name = products.Name,
+                Description = products.Description,
+                PictureUrl = products.PictureUrl,
+                Price = products.Price,
+                ProductBrand = products.ProductBrand.Name,
+                ProductType = products.ProductType.Name
+            };
         }
 
         [HttpGet("brands")]
