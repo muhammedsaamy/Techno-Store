@@ -1,6 +1,7 @@
 ﻿
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +27,8 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
         {
-            return Ok (await _productRepo.GetAllAsync());
+            var spec = new ProductWithTypesAndBrandsSpecification();
+            return Ok (await _productRepo.ListAsync(spec));
         }
 
         [HttpGet("{id}")]
