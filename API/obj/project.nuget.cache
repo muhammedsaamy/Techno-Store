@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xetxsE8F9RRRUHk79bxzZ9ZxCoX88UbaXWvyPkFK8w7xlRC4my/X4Ix5/5RnVkqA7zAdk44ev4TV3VXI5V97Sw==",
+  "dgSpecHash": "i2/USA7DIz4xucGv2I7wkNC/7uricTb8QBmFb0GCAuFADQG8uqZbIdBTPk6tetql0RSxIg3H4quFioymAuvQ+g==",
   "success": true,
   "projectFilePath": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TBARK\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\log4net\\2.0.13\\log4net.2.0.13.nupkg.sha512",
-    "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",

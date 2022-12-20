@@ -66,3 +66,5 @@ D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Infrastructure.pdb
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Core.pdb
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\log4net.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\AutoMapper.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
