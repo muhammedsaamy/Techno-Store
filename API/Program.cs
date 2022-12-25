@@ -1,13 +1,8 @@
-using API.Errors;
 using API.Extensions;
 using API.Helpers;
 using API.Middleware;
-using Core.Interfaces;
 using Infrastructure.Data;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,10 +37,6 @@ using(var scope = app.Services.CreateScope())
     }
     catch (Exception ex)
     {
-        //var serviceCollection = new ServiceCollection();
-        //serviceCollection.AddLogging();
-        //var serviceProvider = serviceCollection.BuildServiceProvider();
-        //_logger = serviceProvider.GetService<ILogger<Program>>();
         var logger = builder.Logging.Services.BuildServiceProvider().GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "An error occured during migration");
 
