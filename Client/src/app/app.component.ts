@@ -10,15 +10,15 @@ import { IProduct } from './models/product';
 })
 export class AppComponent implements OnInit {
   title = 'Tecno';
-  products!:IProduct[]
+  products?:IProduct[]
 
   constructor(private http:HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get("https://localhost:7270/api/products").subscribe({next:(response:any)=>{
+    this.http.get("https://localhost:7270/api/products?pageSize=50").subscribe({next:(response:Ipagination)=>{
     console.log(response)
     this.products=response.data
-    },error:(err:any)=>{
+    }, error:(err:any)=>{
       console.log(err)
     }})
   }
