@@ -12,7 +12,7 @@ export class ShopService {
   baseUrl='https://localhost:7270/api/'
   constructor(private http:HttpClient ) { }
 
-  getProducts(brandId?:number, typeId?:number){
+  getProducts(brandId?:number, typeId?:number, sort?:string){
     let params=new HttpParams();
     if(brandId){
       params=params.append("brandId",brandId.toString())
@@ -22,6 +22,9 @@ export class ShopService {
       params=params.append("typeId",typeId.toString())
     }
 
+    if(sort){
+      params=params.append('sort',sort);
+    }
     return this.http.get<Ipagination>(this.baseUrl+'products',{observe:"response",params})
     .pipe(
       map(response=>{
