@@ -5,4 +5,5 @@ export class ShopParams
   sort ='name';
   pageNumber?=1;
   pageSize:any=6;
+  search?:string;
 }
