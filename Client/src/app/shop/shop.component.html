@@ -39,26 +39,11 @@
 
     <section class="col-9">
       <div class="d-flex justify-content-between align-items-center pb-2">
-
-        <header>
-          <span *ngIf="this.totalCount && this .totalCount>0">
-            Showing
-            <strong>
-              {{(this.shopParams.pageNumber!-1) * this.shopParams.pageSize+1}} -
-              {{this.shopParams.pageNumber! * this.shopParams.pageSize
-              > this.totalCount
-              ? this.totalCount
-              : this.shopParams.pageNumber! * this.shopParams.pageSize
-              }}
-            </strong> of <strong>
-              {{this.totalCount}}
-            </strong> Results</span>
-
-            <span *ngIf="this.totalCount === 0">
-              There are <strong>0</strong> result for this filter
-            </span>
-        </header>
-
+        <app-paging-header
+        [totalCount]="totalCount"
+        [pageNumber]="this.shopParams.pageNumber!"
+        [pageSize]="this.shopParams.pageSize"
+        ></app-paging-header>
         <div class="form-inline mt-2">
           <input class="form-control me-2" style="width: 300px;" placeholder="Search" type="text">
           <button class="btn btn-outline-primary my-2">Search</button>
