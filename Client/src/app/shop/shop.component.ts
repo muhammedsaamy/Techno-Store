@@ -59,11 +59,13 @@ export class ShopComponent implements OnInit {
 
 onBrandSelected(brandId:number){
   this.shopParams.brandId=brandId;
+  this.shopParams.pageNumber=1;
   this.getProducts();
 }
 
 onTypeSelected(typeId:number){
 this.shopParams.typeId=typeId;
+this.shopParams.pageNumber=1;
 this .getProducts();
 }
 
@@ -73,12 +75,15 @@ onSortSelected(sort:string){
 }
 
 onPageChanged(event:any){
-  this.shopParams.pageNumber=event.page;
-  this.getProducts();
+  if(this.shopParams.pageNumber != event.page){
+    this.shopParams.pageNumber=event.page;
+    this.getProducts();
+  }
 }
 
 onSearch(){
   this.shopParams.search = this.searchTemp?.nativeElement.value;
+  this.shopParams.pageNumber=1;
   this.getProducts();
 }
 
