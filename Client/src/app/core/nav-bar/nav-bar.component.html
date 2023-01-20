@@ -1,10 +1,10 @@
 <div class="d-flex flex-column flex-md-row align-items-center justify-content-between pb-3 mb-4 border-bottom fixed-top">
-<img class="loggo" src="/assets/images/loggo.png" style="max-height: 70% ;" alt="loggo">
+<img class="loggo" src="/assets/images/loggo.png" style="max-height: 70% ;" routerLink="/" alt="loggo">
 
   <nav class="d-inline-flex mt-2 mt-md-0 text-uppercase" style="font-size: larger; font-weight: bold;">
-    <a class="me-3 py-2 text-dark text-decoration-none" >Shop</a>
-    <a class="me-3 py-2 text-dark text-decoration-none" >Home</a>
-    <a class="me-3 py-2 text-dark text-decoration-none" >Contact</a>
+    <a class="me-3 py-2" routerLink="/shop" routerLinkActive="active" >Shop</a>
+    <a class="me-3 py-2" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >Home</a>
+    <a class="me-3 py-2"  routerLinkActive="active"  >Contact</a>
   </nav>
 
   <div class="d-flex align-items-center">
