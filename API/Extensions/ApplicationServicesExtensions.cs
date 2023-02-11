@@ -12,6 +12,7 @@ namespace API.Extensions
             //Add scoped from services to pass a repo
 
             Services.AddScoped<IProductRepository, ProductRepository>();
+            Services.AddScoped<IBasketRepository, BasketRepository>();
 
             Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 

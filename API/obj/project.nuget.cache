@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i2/USA7DIz4xucGv2I7wkNC/7uricTb8QBmFb0GCAuFADQG8uqZbIdBTPk6tetql0RSxIg3H4quFioymAuvQ+g==",
+  "dgSpecHash": "9VUVEhs6PWcH8e08JMYwDXKKmZE/EJPzRMS6six2sfAY13VOwOScezsebnTTZJ78H8MPXqBFh/M+t9j3EVQ5PQ==",
   "success": true,
   "projectFilePath": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
@@ -50,6 +52,7 @@
     "C:\\Users\\TBARK\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",

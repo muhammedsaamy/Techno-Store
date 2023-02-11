@@ -113,6 +113,10 @@
             "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.90, )"
             }
           },
           "imports": [

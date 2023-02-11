@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hgZ1B6CiIt6pRxBBMVNKB5K0KAjhDy3s+fzcksBEMKcJZ09uusvpByW2XFQmoBhDVBE5Z9NTd9N+BvJ/cguLwA==",
+  "dgSpecHash": "Ew44ZXowU/pTBIDsv1MG7KbkPnnug1b/bAamqBnc4CUL+JYu9pbv4qVsh+U07bIhxqWxQqLrf7l9j56w2pNhbw==",
   "success": true,
   "projectFilePath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -34,11 +34,14 @@
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\TBARK\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\TBARK\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
