@@ -4,7 +4,7 @@
   </div>
 
   <div class="d-flex align-items-center justify-content-center hover-overlay">
-    <button type="button" class="btn btn-primary fa fa-shopping-cart me-2"></button>
+    <button (click)="addItemToBasket()" type="button" class="btn btn-primary fa fa-shopping-cart me-2"></button>
     <button routerLink="/shop/{{product?.id}}" routerLinkActive="router-link-active"
     type="button" class="btn btn-primary">View</button>
   </div>
