@@ -45,15 +45,15 @@
                     <td class="align-middle"><strong>{{item.price | currency}}</strong></td>
                     <td class="align-middle">
                       <div class="d-flex align-items-center">
-                        <i class="fa fa-minus-circle text-warning me-2" style="cursor: pointer; font-size: 2em;"></i>
+                        <i (click)="decrementItemQuantity(item)" class="fa fa-minus-circle text-warning me-2" style="cursor: pointer; font-size: 2em;"></i>
                         <span class="fw-bold" style="font-size: 1.5em;">{{item.quantity}}</span>
-                        <i class="fa fa-plus-circle text-warning ms-2" style="cursor: pointer; font-size: 2em;"></i>
+                        <i (click)="incrementItemQuantity(item)" class="fa fa-plus-circle text-warning ms-2" style="cursor: pointer; font-size: 2em;"></i>
                       </div>
                     </td>
                     <td class="align-middle"><strong>{{item.price * item.quantity | currency}}</strong></td>
                     <td class="align-middle text-center">
                       <a class="text-danger">
-                        <i class="fa fa-trash" style="font-size: 2em;"></i>
+                        <i (click)="removeBasketItem(item)" class="fa fa-trash" style="cursor: pointer; font-size: 2em;"></i>
                       </a>
                     </td>
                   </tr>
