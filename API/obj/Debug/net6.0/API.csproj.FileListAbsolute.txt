@@ -71,3 +71,11 @@ D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\AutoMapper.Extensi
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\StackExchange.Redis.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
