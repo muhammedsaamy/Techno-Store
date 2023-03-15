@@ -69,3 +69,5 @@ D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Microsoft.Extensio
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\AutoMapper.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+D:\iti\Angular Projects\Techno Store\API\API\bin\Debug\net6.0\StackExchange.Redis.dll

@@ -23,7 +23,7 @@ builder.Services.AddDbContext<StoreContext>(options => options
 .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Redis
-builder.Services.AddSingleton<ConnectionMultiplexer>(c =>
+builder.Services.AddSingleton<IConnectionMultiplexer>(c =>
 {
     var configuration = ConfigurationOptions.Parse(builder
        .Configuration.GetConnectionString("Redis"),true);
