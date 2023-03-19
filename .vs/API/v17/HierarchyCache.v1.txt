@@ -1,0 +1,277 @@
+﻿++Solution 'API' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:API.sln
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\core\bin\debug\net6.0\core.dll
+++Dependencies
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:>212
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>544
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>213
+++Entities
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\
+++Interfaces
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\interfaces\
+++Specifications
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\
+++Analyzers
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:analyzers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:analyzers
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:analyzers
+++Frameworks
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:frameworks
+i:{38cf5362-e166-420b-b259-e79b68da1781}:frameworks
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:frameworks
+++Packages
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:packages
+i:{38cf5362-e166-420b-b259-e79b68da1781}:packages
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:packages
+++BaseEntity.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\baseentity.cs
+++BasketItem.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\basketitem.cs
+++CustomerBasket.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\customerbasket.cs
+++Product.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\product.cs
+++ProductBrand.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\productbrand.cs
+++ProductType.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\producttype.cs
+++IBasketRepository.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\interfaces\ibasketrepository.cs
+++IGenericRepository.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\interfaces\igenericrepository.cs
+++IProductRepository.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\interfaces\iproductrepository.cs
+++BaseSpecification.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\basespecification.cs
+++ISpecification.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\ispecification.cs
+++ProductSpecParams.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\productspecparams.cs
+++ProductWithFiltersForCountSpecification.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\productwithfiltersforcountspecification.cs
+++ProductWithTypesAndBrandsSpecification.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\specifications\productwithtypesandbrandsspecification.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:c:\users\tbark\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.15\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\users\tbark\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:c:\users\tbark\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:c:\users\tbark\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:c:\users\tbark\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\microsoft.netcore.app
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\microsoft.netcore.app
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\microsoft.netcore.app
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.15)
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:>590
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>545
+++SQL Server Database
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>596
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.0)
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>584
+++Microsoft.EntityFrameworkCore.Tools (6.0.11)
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>586
+++Swashbuckle.AspNetCore (6.2.3)
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>585
+++Projects
+i:{38cf5362-e166-420b-b259-e79b68da1781}:projects
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:projects
+++Properties
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\properties\
+++launchSettings.json
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\properties\launchsettings.json
+++wwwroot
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\
+++Controllers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\
+++BaseApiController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\baseapicontroller.cs
+++BasketController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\basketcontroller.cs
+++BuggyController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\buggycontroller.cs
+++ErrorController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\errorcontroller.cs
+++ProductsController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\productscontroller.cs
+++WeatherForecastController.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\controllers\weatherforecastcontroller.cs
+++DTOs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\dtos\
+++Errors
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\errors\
+++Extensions
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\extensions\
+++Helpers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\helpers\
+++Middleware
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\middleware\
+++appsettings.json
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\appsettings.json
+++appsettings.Development.json
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\appsettings.development.json
+++Program.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\program.cs
+++WeatherForecast.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\weatherforecast.cs
+++SQL Server Database dependency is detected
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>597
+++Microsoft.AspNetCore.Analyzers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{38cf5362-e166-420b-b259-e79b68da1781}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\microsoft.aspnetcore.app
+++Infrastructure
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\infrastructure\bin\debug\net6.0\infrastructure.dll
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+++images
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\
+++ProductToReturn.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\dtos\producttoreturn.cs
+++ApiException.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\errors\apiexception.cs
+++ApiResponse.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\errors\apiresponse.cs
+++ApiValidationErrorResponse.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\errors\apivalidationerrorresponse.cs
+++ApplicationServicesExtensions.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\extensions\applicationservicesextensions.cs
+++SwaggerServiceExtensions.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\extensions\swaggerserviceextensions.cs
+++MappingProfiles.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\helpers\mappingprofiles.cs
+++Pagination.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\helpers\pagination.cs
+++ProductUrlResolver.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\helpers\producturlresolver.cs
+++ExceptionMiddleware.cs
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\middleware\exceptionmiddleware.cs
+++products
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\
+++boot-ang1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\boot-ang1.png
+++boot-ang2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\boot-ang2.png
+++boot-core1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\boot-core1.png
+++boot-core2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\boot-core2.png
+++boot-redis1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\boot-redis1.png
+++glove-code1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\glove-code1.png
+++glove-code2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\glove-code2.png
+++glove-react1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\glove-react1.png
+++glove-react2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\glove-react2.png
+++hat-core1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\hat-core1.png
+++hat-react1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\hat-react1.png
+++hat-react2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\hat-react2.png
+++sb-ang1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-ang1.png
+++sb-ang2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-ang2.png
+++sb-core1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-core1.png
+++sb-core2.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-core2.png
+++sb-react1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-react1.png
+++sb-ts1.png
+i:{38cf5362-e166-420b-b259-e79b68da1781}:d:\iti\angular projects\techno store\api\api\wwwroot\images\products\sb-ts1.png
+++Data
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\
+++config
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\config\
+++Migrations
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\migrations\
+++SeedData
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\seeddata\
+++BasketRepository.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\basketrepository.cs
+++GenericRepository.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\genericrepository.cs
+++ProductRepository.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\productrepository.cs
+++SpecificationEvaluator.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\specificationevaluator.cs
+++StoreContext.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\storecontext.cs
+++StoreContextSeed.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\storecontextseed.cs
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>593
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.11)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>562
+++Microsoft.Extensions.Logging.Log4Net.AspNetCore (6.1.0)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>563
+++Microsoft.IdentityModel.Tokens (6.27.0)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>594
+++StackExchange.Redis (2.6.90)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>564
+++System.IdentityModel.Tokens.Jwt (6.27.0)
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:>595
+++ProductConfiguration.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\config\productconfiguration.cs
+++20221216123314_initialCreate.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\migrations\20221216123314_initialcreate.cs
+++StoreContextModelSnapshot.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\migrations\storecontextmodelsnapshot.cs
+++brands.json
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\seeddata\brands.json
+++products.json
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\seeddata\products.json
+++types.json
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\seeddata\types.json
+++20221216123314_initialCreate.Designer.cs
+i:{490bfc37-72c3-4afb-a926-d91b5ce6559c}:d:\iti\angular projects\techno store\api\infrastructure\data\migrations\20221216123314_initialcreate.designer.cs
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.15)
+i:{38cf5362-e166-420b-b259-e79b68da1781}:>598
+++Script Documents
+++VM5
+++index.html
+++swagger-ui-bundle.js
+++swagger-ui-standalone-preset.js
+++aspnetcore-browser-refresh.js
+++browserLink
+++NewFolder
+++Identity
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\identity\
+++AppUser.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\identity\appuser.cs
+++Address.cs
+i:{2d02303a-14f6-4299-8271-4a923e5f1099}:d:\iti\angular projects\techno store\api\core\entities\identity\address.cs
