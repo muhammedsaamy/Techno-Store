@@ -1,6 +1,7 @@
-﻿using API.Errors;
+﻿    using API.Errors;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Extensions
@@ -11,6 +12,7 @@ namespace API.Extensions
         {
             //Add scoped from services to pass a repo
 
+            Services.AddScoped<ITokenService, TokenService>();
             Services.AddScoped<IProductRepository, ProductRepository>();
             Services.AddScoped<IBasketRepository, BasketRepository>();
 
