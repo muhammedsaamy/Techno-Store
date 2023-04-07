@@ -8,14 +8,44 @@
       <div class="form-label-group">
         <input formControlName="email" type="email" id="inputEmail" class="form-control inp" placeholder="Email address">
         <label for="inputEmail">Email address</label>
+        <div *ngIf="loginForm.get('email')?.errors && loginForm.get('email')?.touched">
+          <span
+            class="text-danger"
+            *ngIf="loginForm.get('email')?.getError('required')"
+          >
+            Email is required
+          </span>
+          <span
+            class="text-danger"
+            *ngIf="loginForm.get('email')?.getError('pattern')"
+          >
+            Invalid Email
+          </span>
+        </div>
       </div>
 
       <div class="form-label-group">
         <input formControlName="password" type="password" id="inputPassword" class="form-control inp" placeholder="Password" >
         <label for="inputPassword">Password</label>
+
+        <div *ngIf="loginForm.get('password')?.errors && loginForm.get('password')?.touched">
+          <span
+            class="text-danger"
+            *ngIf="loginForm.get('password')?.getError('required')"
+          >
+          password is required
+          </span>
+          <span
+            class="text-danger"
+            *ngIf="loginForm.get('password')?.getError('minlength')"
+          >
+            too short
+          </span>
+        </div>
+
       </div>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <button [disabled]="loginForm.invalid" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
 
   </div>
