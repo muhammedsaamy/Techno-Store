@@ -31,7 +31,7 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options => options
 
 
 //Redis
-builder.Services.AddSingleton<IConnectionMultiplexer>(c =>
+builder.Services.AddScoped<IConnectionMultiplexer>(c =>
 {
     var configuration = ConfigurationOptions.Parse(builder
        .Configuration.GetConnectionString("Redis"),true);
