@@ -10,7 +10,7 @@ import { IUser } from '../shared/models/user';
 })
 export class AccountService {
   baseUrl = environment.apiUrl;
-  private currentUserSource = new BehaviorSubject<IUser | null>(null);
+  currentUserSource = new BehaviorSubject<IUser | null>(null);
   currentUser$ = this.currentUserSource.asObservable();
   constructor(private http:HttpClient, private router: Router) { }
 
