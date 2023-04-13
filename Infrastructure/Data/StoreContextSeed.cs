@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Entities.OrderAggregate;
 using Microsoft.EntityFrameworkCore;
 //using log4net;
 //using log4net.Config;
@@ -60,6 +61,21 @@ namespace Infrastructure.Data
                     {
                         //context.ChangeTracker.Clear();
                         context.Products.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
+
+                if (!context.deliveryMethods.Any())
+                {
+
+                    var dmData =
+                        File.ReadAllText("../Infrastructure/Data/SeedData/delivery.json");
+                    var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(dmData);
+                    foreach (var item in methods)
+                    {
+                        //context.ChangeTracker.Clear();
+                        context.deliveryMethods.Add(item);
                     }
 
                     await context.SaveChangesAsync();

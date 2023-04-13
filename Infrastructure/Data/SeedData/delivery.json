@@ -2,29 +2,29 @@
   {
     "Id": 1,
     "ShortName": "UPS1",
-    "Description": "Fastest delivery time",
     "DeliveryTime": "1-2 Days",
+    "Description": "Fastest delivery time",
     "Price": 10
   },
   {
     "Id": 2,
     "ShortName": "UPS2",
-    "Description": "Get it within 5 days",
     "DeliveryTime": "2-5 Days",
+    "Description": "Get it within 5 days",
     "Price": 5
   },
   {
     "Id": 3,
     "ShortName": "UPS3",
-    "Description": "Slower but cheap",
     "DeliveryTime": "5-10 Days",
+    "Description": "Slower but cheap",
     "Price": 2
   },
   {
     "Id": 4,
     "ShortName": "FREE",
-    "Description": "Free! You get what you pay for",
     "DeliveryTime": "1-2 Weeks",
+    "Description": "Free! You get what you pay for",
     "Price": 0
   }
 ]
