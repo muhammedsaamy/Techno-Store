@@ -10,3 +10,15 @@ D:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.dll
 D:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\refint\Core.dll
 D:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.pdb
 D:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\ref\Core.dll
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.dll
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\refint\Core.dll
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.pdb
+E:\iti\Angular Projects\Techno Store\API\Core\bin\Debug\net6.0\Core.deps.json
+E:\iti\Angular Projects\Techno Store\API\Core\bin\Debug\net6.0\Core.dll
+E:\iti\Angular Projects\Techno Store\API\Core\bin\Debug\net6.0\Core.pdb
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+E:\iti\Angular Projects\Techno Store\API\Core\obj\Debug\net6.0\ref\Core.dll

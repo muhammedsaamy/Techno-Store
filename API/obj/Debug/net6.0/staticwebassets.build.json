@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JQ1lqr4O5LMlg39zTGaLyoPjHYKe6tpObYCNyQp57co=",
+  "Hash": "UVVVYpDfckr55PtnLiD2tY+LxT1Q33BiJ2MrmjZm4WE=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-ang1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang1.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-ang2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang2.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-core1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core1.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-core2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core2.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-redis1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\boot-redis1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-redis1.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-code1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-code1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code1.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-code2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-code2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code2.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-react1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react1.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-react2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\glove-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react2.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-core1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-core1.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-react1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react1.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-react2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\hat-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react2.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang1.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang2.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core1.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core2.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-react1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-react1.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
     },
     {
-      "Identity": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ts1.png",
+      "Identity": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\images\\products\\sb-ts1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
+      "ContentRoot": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ts1.png",
       "AssetKind": "All",

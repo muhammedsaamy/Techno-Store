@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj": {}
+    "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj": {
+    "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
+        "projectUniqueName": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\TBARK\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\API\\obj\\",
+        "projectPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TBARK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj"
+              "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -73,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,25 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj": {
+    "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\TBARK\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\obj\\",
+        "projectPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TBARK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,7 +133,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -149,25 +143,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\TBARK\\.nuget\\packages\\",
-        "outputPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\obj\\",
+        "projectPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Muhammed Samy\\.nuget\\packages\\",
+        "outputPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TBARK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Muhammed Samy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,8 +171,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj": {
-                "projectPath": "D:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj"
+              "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj": {
+                "projectPath": "E:\\iti\\Angular Projects\\Techno Store\\API\\Core\\Core.csproj"
               }
             }
           }
@@ -228,7 +218,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -237,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
