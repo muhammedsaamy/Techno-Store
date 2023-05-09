@@ -11,18 +11,13 @@ namespace Infrastructure.Services
 {
     public class OrderService : IOrderService
     {
-        private readonly IGenericRepository<Order> _orderRepo;
-        private readonly IGenericRepository<DeliveryMethod> _dmrepo;
-        private readonly IGenericRepository<Product> _productRepo;
         private readonly IBasketRepository _basketRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public OrderService(IGenericRepository<Order> orderRepo, IGenericRepository<DeliveryMethod> dmrepo, 
-            IGenericRepository<Product> productRepo, IBasketRepository basketRepo)
+        public OrderService(IBasketRepository basketRepo, IUnitOfWork unitOfWork)
         {
-            this._orderRepo = orderRepo;
-            this._dmrepo = dmrepo;
-            this._productRepo = productRepo;
             this._basketRepo = basketRepo;
+            this._unitOfWork = unitOfWork;
         }
 
         public async Task<Order> CreateOrderAsync(string buyerEmail, int deliveryMethodId, string basketId, Address shippingAddress)
@@ -35,14 +30,14 @@ namespace Infrastructure.Services
 
             foreach (var item in basket.Items)
             {
-                var productItem = await _productRepo.GetByIdAsync(item.Id);
+                var productItem = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id);
                 var itemOrdered = new ProductItemOrdered(productItem.Id, productItem.Name, productItem.PictureUrl);
                 var orderItem = new OrderItem(itemOrdered, productItem.Price, item.Quantity);
                 items.Add(orderItem);
             }
 
             //get delivery method from the repo
-            var deliveryMethod = await _dmrepo.GetByIdAsync(deliveryMethodId);
+            var deliveryMethod = await _unitOfWork.Repository<DeliveryMethod>().GetByIdAsync(deliveryMethodId);
 
             //calc subtotal
             var subtotal = items.Sum(item => item.Price * item.Quantity);
@@ -50,7 +45,15 @@ namespace Infrastructure.Services
             //create order
             var order = new Order(items, buyerEmail, shippingAddress, deliveryMethod, subtotal);
 
-            //ToDo: save to DB
+            _unitOfWork.Repository<Order>().Add(order);
+
+            //save to DB
+            var result = await _unitOfWork.Complete();
+
+            if (result <= 0) return null;
+
+            //delet basket
+            await _basketRepo.DeleteBasketAsync(basketId);
 
             //return order
             return order;
