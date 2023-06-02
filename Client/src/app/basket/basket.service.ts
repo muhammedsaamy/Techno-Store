@@ -22,6 +22,8 @@ export class BasketService {
 
   constructor(private http: HttpClient) { }
 
+
+
   setShippingPrice(deliveryMethod: IDeliveryMethod){
     this.shipping = deliveryMethod.price;
     this.calculateTotals();
@@ -90,6 +92,13 @@ decrementItemQuantity(item:IBasketItem){
       }
     }
   }
+
+  deleteLocalBasket(id : string){
+    this.basketSource.next(null);
+    this.basketTotalSource.next(null);
+    localStorage.removeItem('basket_id');
+  }
+
   deleteBasket(basket: IBasket) {
     return this.http.delete(this.basUrl + "basket?id=" + basket.id).subscribe({
       next:()=>{
